@@ -28,17 +28,20 @@ export const index = () => {
 				toast.error("please fill all the required fields");
 			} else {
 				setLoading(true);
-				const res = await axios.post("http://localhost:5000/post/submit-data", {
-					name,
-					email,
-					primarySkills,
-					secondarySkills,
-					github,
-					linkedIn,
-					message,
-					country,
-					experience,
-				});
+				const res = await axios.post(
+					"https://alantechyhub.herokuapp.com/post/submit-data",
+					{
+						name,
+						email,
+						primarySkills,
+						secondarySkills,
+						github,
+						linkedIn,
+						message,
+						country,
+						experience,
+					}
+				);
 				setLoading(false);
 				if (res.data.ok === true) {
 					setSuccess(true);
