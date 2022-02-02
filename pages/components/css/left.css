@@ -1,0 +1,41 @@
+.left-container {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+		rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+	width: 45%;
+}
+.left-container p {
+	font-size: 30px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+.left-container p2 {
+	font-size: 20px;
+	line-height: 2.2;
+}
+.left-container h1 {
+	margin-top: 160px;
+	color: rgba(0, 0, 0, 0.7);
+	line-height: 2;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	.main-container {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		align-items: center;
+	}
+	.left-container {
+		width: 100%;
+	}
+}
+@media only screen and (min-device-width: 480px) and (max-device-width: 768px) {
+	.header {
+		font-size: 54px;
+		padding: 10px 0;
+		width: 100vw;
+	}
+	.left-container {
+		width: 100%;
+	}
+}
