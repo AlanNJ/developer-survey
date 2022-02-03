@@ -4,9 +4,9 @@ export const Left = () => {
 	return (
 		<div className="left-container">
 			<p>
-				We are trying to form a online community of developers by the developers
-				of all experience. It has a vision of improving each others skills by
-				helping and solving the real world problems.
+				We are trying to form an online community of developers by the
+				developers of all experience. It has a vision of improving each others
+				skills specially focused on helping and solving the real world problems.
 			</p>
 			<p2>
 				We need all the developers from basic,intermediate to advance.The
