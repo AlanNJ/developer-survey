@@ -11,7 +11,7 @@ function myApp({ Component, pageProps }) {
 	return (
 		<>
 			<Head>
-				<title>DevSurver!Building something nice</title>
+				<title>DevSurvey!Building something nice</title>
 				<meta charset="UTF-8" />
 				<meta name="description" content="Programmers survey" />
 				<meta name="keywords" content="HTML, CSS, JavaScript" />
